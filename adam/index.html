@@ -1,23 +1,51 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
   <head>
+    <!-- Page title -->
     <title>Dih Mansion</title>
     <style>
-      body{
-        background-image: url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/5/16/0/HUHH2022_Global-Homes_Canada-09.jpg.rend.hgtvcom.791.527.85.suffix/1652726262349.webp');
-        color: #5F0000;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        font-size: 20px;
-        font-family: comic sans, cursive, sans-serif;
+      /* Reset default margins and padding */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
       }
-      p{
+
+      /* Body styling with full-screen background image */
+      body {
+        /* Mansion background image */
+        background-image: url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/5/16/0/HUHH2022_Global-Homes_Canada-09.jpg.rend.hgtvcom.791.527.85.suffix/1652726262349.webp');
+        /* Cover entire viewport, cutting off edges as needed */
+        background-size: cover;
+        /* Fix background to viewport (doesn't scroll) */
+        background-attachment: fixed;
+        /* Don't repeat the image */
+        background-repeat: no-repeat;
+        /* Center the background image */
+        background-position: center;
+        
+        /* Text styling */
+        color: #5F0000;
+        font-size: 20px;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+      }
+
+      /* Paragraph styling */
+      p {
         font-size: 15px;
+      }
+
+      /* Heading styling */
+      h1 {
+        margin-top: 20px;
       }
     </style>
   </head>
   <body>
-    <h1>Adam The Wolf's Mansion<br><p>Aka The Dih Mansion</p></h1>
-     
+    <!-- Main heading -->
+    <h1>Adam The Wolf's Mansion</h1>
+    <!-- Subtitle -->
+    <p>Aka The Dih Mansion</p>
   </body>
 </html>
